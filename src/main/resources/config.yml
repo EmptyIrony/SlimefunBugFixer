@@ -1,3 +1,19 @@
 Backpack_title: 'Backpack'
 Backpack_item_displayname: '背包'
 ExplosivePickaxe: '爆炸镐'
+
+#指南书标题包含的字符
+slimefun_title: "Slimefun"
+#背包物品名称包含的字符
+backpack_item_name:
+  - "背包"
+  - "冰箱"
+#末地背包物品名称包含的字符
+ender_backpack_item_name: "末地"
+#镐子物品名称
+pickaxe_item_name:
+  - "§e爆破镐"
+  - "§6熔炉镐"
+  - "§e矿脉镐"
+#方块放置机物品名称
+block_placer_item_name: "§a方块放置机"
