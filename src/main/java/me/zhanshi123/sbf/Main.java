@@ -14,14 +14,15 @@ public class Main extends JavaPlugin
 	}
 	public void onEnable()
 	{
-		instance=this;
+		instance = this;
+		saveDefaultConfig();
 		new Messages();
 		Bukkit.getPluginManager().registerEvents(new Listeners(), instance);
 		new ConfigManager();
 		new BackpackCooldown();
 		new InteractCooldown();
-		Plugin sf=Bukkit.getPluginManager().getPlugin("Slimefun");
-		if(sf==null){
+		Plugin sf = Bukkit.getPluginManager().getPlugin("Slimefun");
+		if (sf == null) {
 			setEnabled(false);
 			Bukkit.getConsoleSender().sendMessage("§6§lSlimefunBugFixer §7>>> §c§l未找到Slimefun，停止加载");
 			return;
